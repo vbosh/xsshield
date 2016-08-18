@@ -1,0 +1,28 @@
+{
+  "name": "xsshield",
+  "version": "1.0.0",
+  "description": "Clean POST/PUT/GET body/params.",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "mocha ./test/*.test.js"
+  },
+  "keywords": [
+    "xss",
+    "sanitize",
+    "node",
+    "express",
+    "restify",
+    "middleware",
+    "trim",
+    "params"
+  ],
+  "author": "Vasil Boshnakov",
+  "license": "ISC",
+  "dependencies": {
+    "xss-filters": "1.2.6"
+  },
+  "devDependencies": {
+    "chai": "3.5.0",
+    "mocha": "3.0.2"
+  }
+}
