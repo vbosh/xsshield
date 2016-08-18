@@ -22,7 +22,7 @@ app.use(restify.bodyParser());
 /* clean all params except the password and email */
 app.use(xsshield(['password', 'email']));
 
-/* or clean all params withoud exception */
+/* or clean all params without exception */
 app.use(xsshield());
 
 app.listen(8080);
